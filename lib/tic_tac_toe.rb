@@ -94,6 +94,6 @@ class TicTacToe
     until over?()
       turn()
     end
-    won?() ? (puts "Congratulations #{winner(@board)}!") : (puts "Cat's Game!")
+    won?() ? (puts "Congratulations #{winner()}!") : (puts "Cat's Game!")
   end
 end
